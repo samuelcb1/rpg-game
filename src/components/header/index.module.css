@@ -1,0 +1,7 @@
+.logo{
+    gap: 5rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-right: 2.5rem;
+}
