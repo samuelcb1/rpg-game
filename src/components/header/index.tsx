@@ -32,7 +32,7 @@ export function Header() {
                         <Nav.Link href="/home" style={{color:"#fff"}}>Home</Nav.Link>
                         <Nav.Link href="/characters" style={{color:"#fff"}}>Fichas</Nav.Link>
                     </Nav>
-                    <Button href='/history'>Criar Historia</Button>
+                    {/* <Button href='/history'>Criar Historia</Button> */}
                     {/* <Form className="d-flex">
                         <Form.Control
                             type="search"

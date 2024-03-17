@@ -9,12 +9,12 @@ function CardCharacter({ res }: any) {
 
 
   return (
-    <div className="d-flex justify-content-around row" style={{ minHeight: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundImage: "url(/images/background/background.jpg)", paddingTop: "1rem", gap: '20px', maxWidth: "100%" }}>
+    <div className="d-flex justify-content-around row" style={{ minHeight: "100%", paddingTop: "1rem",gap: '20px', maxWidth: "100%" }}>
       {res.map((res, index) => {
         return (
           <Card className='' style={{ width: '18rem', border: "1px solid red" }}>
             <Col xl md="auto">
-              <Card.Img variant="top" src={res.image_card.url} />
+              <Card.Img variant="top" src={res.image_card.url} style={{width:"100%"}} />
             </Col>
             <Card.Body>
               <Card.Title>{res.name[0].text}</Card.Title>

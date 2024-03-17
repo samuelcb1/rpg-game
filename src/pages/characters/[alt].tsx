@@ -37,7 +37,7 @@ export default function Card({ infoCard }: Card) {
     return (
         <div className="col-xs-2 col-md-10" style={{ width: "100%", display: "flex", justifyContent: "center" }}>
             <div style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <div className={styles.main} style={{ borderRadius: "1rem", padding: "1rem", margin: "3rem", backgroundRepeat: "no-repeat", border: "5px solid #000", backgroundPosition: "center center", backgroundImage: "url(/images/background/rascunho.png)" }}>
+                <div className={styles.main} style={{ borderRadius: "1rem", padding: "1rem", margin: "3rem", border: "5px solid #000", backgroundPosition: "center center", backgroundImage: "url(/images/background/rascunho.png)" }}>
                     <div className="row">
                         <h1>Ficha do Personagem</h1>
                         <Image style={{ borderRadius: "2rem" }} className="col-xs-10 col-md-4" src={infoCard.url} />
@@ -82,7 +82,7 @@ export default function Card({ infoCard }: Card) {
 
                     <div className="col-md-8" style={{ width: "100%", display: "flex", flexDirection: "row", gap: "7rem" }}>
                         <div style={{ width: "30%", display: "flex", alignItems: "center", justifyContent: "center", margin: "5px", flexDirection: "column" }}>
-                            <h3>Pontos de Vida</h3>
+                            <h4>Pontos de Vida</h4>
                             <h1 style={{ background: "#edd6d6", padding: "5px", borderRadius: "1rem", width: "30%", display: "flex", justifyContent: "center" }}>{infoCard.points_life}</h1>
                         </div>
 
