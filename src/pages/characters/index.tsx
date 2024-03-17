@@ -8,7 +8,7 @@ import Prismic from '@prismicio/client'
 export default function Characters({ resObject }: any) {
 
     return (
-        <div>
+        <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
             <CardCharacter res={resObject} />
         </div>
     )

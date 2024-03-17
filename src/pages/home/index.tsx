@@ -12,7 +12,7 @@ import Prismic from '@prismicio/client'
 export default function Home({ resObject }: any) {
     {
         return (
-            <div style={{ minHeight: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundImage: "url(/images/background/background.jpg)" }} >
+            <div style={{ minHeight: "100vh", display:"flex", alignItems:"center" ,backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundImage: "url(/images/background/background.jpg)" }} >
                 <Head>
                     <title>RPG | Home</title>
                     <link rel="icon" type="image/x-icon" href="/images/my_logo.png" />
